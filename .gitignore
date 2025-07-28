@@ -1,0 +1,36 @@
+.DS_Store
+
+# Environment variables
+.env
+.env.prod
+node_modules/
+typechain-types/
+artifacts/
+# Compiler files
+cache/
+out/
+
+# Ignores development broadcast logs
+broadcast/
+
+# Docs
+docs/
+
+node_modules
+.env
+
+# Hardhat files
+/cache
+/cache_hardhat
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
